@@ -1,0 +1,55 @@
+/* Styles for Frontend Mentor Attribution Footer. */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+    
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+/* End of Attribution Footer style classes. */
+
+/*
+    =====================================
+            Import Google Fonts.
+    =====================================
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700'); /* Import Poppins for the header section & Open Sans for the body section. */
+
+/*
+    ==============================================
+        Define CSS variables for this project.
+    ==============================================
+*/
+:root {
+    --primary-color: hsl(322, 100%, 66%); /* Pink color */
+    /* Neutral colors*/
+    --first-neutral-color: hsl(192, 100%, 9%); /* Very Dark Cyan */
+    --second-neutral-color: hsl(208, 11%, 55%); /* Grayish Blue */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Media queries from Bootstrap
+    
+    // Extra small devices (portrait phones, less than 576px)
+    // No media query for `xs` since this is the default in Bootstrap
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { ... }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { ... }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { ... }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { ... }
+*/
+/* MEDIA QUERIES (DELETE THIS AFTER INSERTING MEDIA QUERIES) */
