@@ -391,7 +391,8 @@ Medium devices (tablets, 768px and up)
         .credit {
             display: block;
         }*/
-}     
+}
+
 /*     
 
 Media querie for:
@@ -492,5 +493,98 @@ Large devices (desktops, 992px and up)
         #attribution {
             font-size: 10px;
             margin-right: 10em;
+        }
+}
+
+/*     
+
+Media querie for:
+
+Extra large devices (large desktops, 1200px and up)
+
+*/
+@media only screen
+    and (min-width: 1200px) {
+        .header-logo img {
+            height: 1.95em;
+            margin: 4.1em;
+        }
+
+        .intro-text h1 {
+            font-size: 2.4em;
+        }
+
+        .intro-text p {
+            font-size: 1.25em;
+            margin: 0.7em 10.5em 7.1em 9.5em;
+        }
+
+        .screen-mockup {
+            margin: 0em 10.2em 10.5em 10.2em;
+        }
+
+        form {
+            margin-top: -2.7em;
+            margin-bottom: 10.6em;
+        }
+
+        form h1 {
+            color: purple;
+            font-size: 2.5em;
+            margin-bottom: 1.18em;
+        }
+
+        input[type="email"] {
+            padding: 1.9em 17.5em 1.9em 2.2em;
+            border-radius: 7px;
+        }
+
+        ::placeholder {
+            font-size: 1.1em;
+        }
+
+        input[type="submit"] {
+            padding: 1.7em 5.75em;
+        }
+
+        .footer-logo {
+            width: 55%;
+            margin-left: 6em;
+        }
+
+        .social-icons {
+            font-size: 0.6em;
+            margin-left: 10em;
+            margin-top: 4.7em;
+        }
+
+        .footer-flex-item-1 {
+            margin-top: 2.2em;
+        }
+
+        .social-icons i {
+            margin: 0em 0.65em 0em 0em;
+        }
+
+        .credit {
+            margin-bottom: 1.2em;
+            margin-right: -0.2em;
+        }
+
+        .footer-text ul li {
+            font-size: 0.9em;
+            margin: 0em 1.25em;
+        }
+
+        .footer-flex-item-2 {
+            margin-right: 5.5em;
+        }
+
+        #copyright {
+            font-size: 0.7em;
+        }
+
+        #attribution {
+            font-size: 11px;
         }
 }
